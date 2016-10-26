@@ -17,6 +17,12 @@ from colors import *
 # get nproc for spawning loops to avoid speedstep noise
 NPROC = mp.cpu_count()
 
+def chk_tsx():
+  with open("/proc/cpuinfo", "rb") as f:
+    data = f.read()
+    if 'rtm' in data:
+      return True
+  return False
 
 # get measured timing to set threshold value
 def measure(addr, mode, niter):
@@ -495,7 +501,9 @@ def pwn(opts, start_time):
     return accuracies
 
 if __name__ == '__main__':
-
+    if not chk_tsx():
+        print("Error, your processor does not support Intel TSX")
+        quit()
     if not os.path.exists('drk-probing'):
         print("Error: Please run 'make' to build necessary files.")
         quit()

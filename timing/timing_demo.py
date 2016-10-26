@@ -10,6 +10,13 @@ from colors import *
 # get nproc for spawning loops to avoid speedstep noise
 NPROC = mp.cpu_count()
 
+def chk_tsx():
+  with open("/proc/cpuinfo", "rb") as f:
+    data = f.read()
+    if 'rtm' in data:
+      return True
+  return False
+
 # run command and get its output as dict
 def run_command(cmd_args, evaluate=True):
     p = Popen(cmd_args,
@@ -75,6 +82,10 @@ def measure_address(address, status_str, mode_str, priv_str, add_str):
 
 
 if __name__ == '__main__':
+    if not chk_tsx():
+        print("Error, your processor does not support Intel TSX")
+        quit()
+
     if not os.path.exists('loop'):
         print("Error: Please run 'make' on ../common " +
                 "to build necessary files.")
