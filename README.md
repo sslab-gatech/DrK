@@ -38,15 +38,15 @@ Run ```make``` on the directory of this repository.
 
 ### Example: Timing demo
 Run ```cd timing; ./timing_demo.py```
-<p align='center'>
-<img src="https://github.com/sslab-gatech/DrK/blob/master/timing-mu.png" /><br />
-<img src="https://github.com/sslab-gatech/DrK/blob/master/timing-x-nx.png" /><br />
+<p align='left'>
+<img width="60%" src="https://github.com/sslab-gatech/DrK/blob/master/timing-mu.png" /><br />
+<img width="60%"  src="https://github.com/sslab-gatech/DrK/blob/master/timing-x-nx.png" /><br />
 </p>
 
 ### Example: Breaking KASLR in Linux
 Run ```cd linux; ./run-drk-attack.py```
-<p align='center'>
-<img src="https://github.com/sslab-gatech/DrK/blob/master/linux-attack.png" /><br />
+<p align='left'>
+<img width="60%" src="https://github.com/sslab-gatech/DrK/blob/master/linux-attack.png" /><br />
 </p>
 
 ## Contributors
