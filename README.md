@@ -25,11 +25,11 @@ with near-perfect accuracy in under a second.
 
 ## Demo
 
-### Timing
+### Timing (click the image to watch the video)
 [![Timing Demo](https://img.youtube.com/vi/NdndV_cMJ8k/0.jpg)]
 (https://www.youtube.com/watch?v=NdndV_cMJ8k)
 
-### Full attack on Linux
+### Full attack on Linux (click the image to watch the video)
 [![Full attack on Linux](https://img.youtube.com/vi/WXGCylmAZkA/0.jpg)]
 (https://www.youtube.com/watch?v=WXGCylmAZkA)
 
