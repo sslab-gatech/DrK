@@ -22,7 +22,7 @@ with near-perfect accuracy in under a second.
 
 ## More details
 * DrK paper (ACM CCS'16): http://www.cc.gatech.edu/~yjang37/assets/papers/2016/jang:drk-ccs.pdf
-
+* Talk at Black Hat USA: https://www.youtube.com/watch?v=923QRTsUf3E
 ## Demo
 
 ### Timing (click the image to watch the video)
