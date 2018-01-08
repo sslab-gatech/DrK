@@ -21,8 +21,8 @@ with near-perfect accuracy in under a second.
 
 
 ## More details
-* DrK paper (ACM CCS'16): http://www.cc.gatech.edu/~yjang37/assets/papers/2016/jang:drk-ccs.pdf
-* Talk at Black Hat USA: https://www.youtube.com/watch?v=923QRTsUf3E
+* DrK paper (ACM CCS'16): http://people.oregonstate.edu/~jangye/assets/papers/2016/jang:drk-ccs.pdf
+* Talk at Black Hat USA: https://www.youtube.com/watch?v=rtuXG28g0CU
 
 ## Demo
 
@@ -55,6 +55,6 @@ Run ```cd linux; ./run-drk-attack.py```
 * [Sangho Lee]
 * [Taesoo Kim]
 
-[Yeongjin Jang]: <http://www.cc.gatech.edu/~yjang37>
+[Yeongjin Jang]: <http://people.oregonstate.edu/~jangye>
 [Sangho Lee]: <http://www.cc.gatech.edu/~slee3036>
 [Taesoo Kim]: <https://taesoo.gtisc.gatech.edu>
