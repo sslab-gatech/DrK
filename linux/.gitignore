@@ -1,7 +1,0 @@
-drk-probing
-kallsyms
-kernel_*
-kpt
-module_*
-modules_*
-scan_*
